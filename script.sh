@@ -12,7 +12,7 @@ fi
 
 for ((i = 1; i <= ITERATIONS; i++)); do
     {
-        echo "--- $(date '+%Y-%m-%d %H:%M:%S') ---"
+        echo "--- $(date '+%Y-%m-%d %H:%M:%S') on $(hostname) ---"
         free -h
         df -h
         uptime
